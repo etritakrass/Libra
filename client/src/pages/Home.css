@@ -1,21 +1,21 @@
+/* GENERAL */
 .home {
+  width: 100%;
   font-family: Arial, sans-serif;
-  text-align: center;
 }
 
-/* HERO IMAGE */
+/* HERO */
 .hero-image {
   width: 100%;
-  height: 450px;
-  object-fit: cover;
+  height: auto;
 }
 
 /* MARQUEE */
 .marquee-container {
-  background-color: #0a2a43;
+  overflow: hidden;
+  background: #0a2a43;
   color: white;
   padding: 10px 0;
-  overflow: hidden;
 }
 
 .marquee {
@@ -25,48 +25,99 @@
 }
 
 @keyframes scroll {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
-/* ABOUT SECTION */
-.about-section {
+/* ===== ODA SECTION ===== */
+.milk-box {
+  background-color: #f5f0e6;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  padding: 40px;
-  gap: 20px;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 20px;
 }
 
 .about-box {
-  width: 50%;
-  text-align: left;
+  color: #0a2a43;
+  max-width: 60%;
+}
+
+.about-box h2 {
+  margin-bottom: 10px;
+}
+
+.about-logo.navy-side {
+  background-color: #0a2a43;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .about-logo img {
-  width: 150px;
+  width: 120px;
 }
 
-/* SERVICES */
+/* ===== SERVICES ===== */
 .services-section {
-  padding: 40px;
+  padding: 20px;
 }
 
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.services-section h2 {
+  text-align: center;
+  color: #0a2a43;
+  margin-bottom: 20px;
+}
+
+.services-grid-alt {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
-.service {
-  border: 1px solid #ddd;
-  padding: 15px;
-  border-radius: 8px;
+.service-row {
+  display: flex;
+  width: 100%;
+  min-height: 120px;
 }
 
-/* FOOTER NOTE */
-.home-footer-note {
-  padding: 20px;
+.service-row.reverse {
+  display: flex;
+}
+
+/* TITLE BOX */
+.service-title.navy {
   background-color: #0a2a43;
   color: white;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-title h3 {
+  margin: 0;
+}
+
+/* TEXT BOX */
+.service-text.milk {
+  background-color: #f5f0e6;
+  color: #0a2a43;
+  flex: 2;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+/* FOOTER */
+.home-footer-note {
+  text-align: center;
+  padding: 20px;
+  color: #0a2a43;
+  font-weight: bold;
 }
