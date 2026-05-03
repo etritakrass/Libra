@@ -1,0 +1,147 @@
+.services-page {
+  font-family: Arial, sans-serif;
+  background-color: #fcfcfc;
+  padding-bottom: 60px;
+}
+
+/* Hero Section */
+.services-hero {
+  background-color: #213f50; /* Dark teal/blue matching the image */
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  margin-bottom: 40px;
+}
+
+.services-hero h1 {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* Container */
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Intro Section */
+.services-intro {
+  text-align: center;
+  margin-bottom: 60px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services-intro h2 {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 36px;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.services-intro p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Grid Layout */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+/* Individual Card */
+.service-card-item {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.service-card-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Header (Icon + Title) */
+.card-header-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.icon-box-gold {
+  background-color: #cda434; /* Gold color */
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.card-title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subtitle-orange {
+  color: #d97706; /* Orange */
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+
+.card-title-box h3 {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 22px;
+  color: #111;
+  margin: 0;
+  line-height: 1.3;
+}
+
+/* Divider inside card */
+.card-divider {
+  border: 0;
+  height: 1px;
+  background-color: #e5e7eb;
+  margin: 0 0 20px 0;
+  width: 100%;
+}
+
+/* Card Body Text */
+.card-body-text {
+  color: #4b5563;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.card-body-text p {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.card-body-text ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.card-body-text li {
+  margin-bottom: 8px;
+}
