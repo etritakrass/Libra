@@ -4,9 +4,9 @@
   padding-bottom: 60px;
 }
 
-/* Hero Section */
+
 .services-hero {
-  background-color: #213f50; /* Dark teal/blue matching the image */
+  background-color: #213f50; 
   color: white;
   text-align: center;
   padding: 80px 20px;
@@ -21,14 +21,14 @@
   letter-spacing: 1px;
 }
 
-/* Container */
+
 .services-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Intro Section */
+
 .services-intro {
   text-align: center;
   margin-bottom: 60px;
@@ -50,14 +50,14 @@
   line-height: 1.6;
 }
 
-/* Grid Layout */
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
 }
 
-/* Individual Card */
+
 .service-card-item {
   background-color: #ffffff;
   border-radius: 8px;
@@ -74,7 +74,7 @@
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
-/* Card Header (Icon + Title) */
+
 .card-header-top {
   display: flex;
   align-items: flex-start;
@@ -83,7 +83,7 @@
 }
 
 .icon-box-gold {
-  background-color: #cda434; /* Gold color */
+  background-color: #cda434;
   color: white;
   width: 50px;
   height: 50px;
@@ -101,7 +101,7 @@
 }
 
 .subtitle-orange {
-  color: #d97706; /* Orange */
+  color: #d97706;
   font-size: 13px;
   font-weight: 600;
   text-transform: capitalize;
@@ -116,7 +116,7 @@
   line-height: 1.3;
 }
 
-/* Divider inside card */
+
 .card-divider {
   border: 0;
   height: 1px;
@@ -125,7 +125,7 @@
   width: 100%;
 }
 
-/* Card Body Text */
+
 .card-body-text {
   color: #4b5563;
   font-size: 15px;
