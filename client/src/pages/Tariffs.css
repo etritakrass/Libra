@@ -1,0 +1,149 @@
+.tariffs-page {
+  font-family: Arial, sans-serif;
+  background-color: #fcfcfc;
+  padding-bottom: 60px;
+}
+
+.tariffs-hero {
+  background-color: #213f50;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.tariffs-hero h1 {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+.tariffs-container {
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.breadcrumb {
+  color: #cda434;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.tariffs-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  color: #000;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.tariffs-title u {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  margin-right: 8px;
+}
+
+.flipbook-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  background-color: #555555;
+  padding: 30px 50px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  position: relative;
+  width: 80%;
+  height: calc(100vh - 250px);
+  min-height: 500px;
+  max-width: 100%;
+  margin: 0 auto 40px auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.flipbook-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.html-flip-book {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.page {
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.page-cover {
+  background-color: #f5f0e6;
+  color: #213f50;
+  border: solid 1px #e2d7c1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.page-cover h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+}
+
+.nav-arrow {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-arrow:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.pdf-document {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.react-pdf__Page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-pdf__Page__canvas {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: fill;
+  margin: 0 !important;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.react-pdf__Page__textContent,
+.react-pdf__Page__annotations {
+  display: none !important;
+}
