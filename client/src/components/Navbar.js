@@ -4,13 +4,17 @@ import "./Navbar.css";
 
 export default function Navbar() {
   return (
+   
     <nav className="navbar">
 
+    
       <div className="logo">
-  <Link to="/">Libra</Link>
-</div>
+        <Link to="/">
+          <img src="/photos/logo.png" alt="Libra Logo" />
+        </Link>
+      </div>
 
-      {/* NAV LINKS */}
+    
       <ul className="nav-links">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/services">Services</Link></li>
@@ -18,7 +22,16 @@ export default function Navbar() {
         <li><Link to="/about">About Us</Link></li>
         <li><Link to="/notaries">Notaries</Link></li>
         <li><Link to="/login">Login</Link></li>
-        <li><Link to="/register" className="register-btn">Register</Link></li>
+
+       
+        <li>
+               <Link
+             to="/register"
+             className="register-btn"
+             style={{ color: "#0a2a43" }} >
+                Register
+             </Link>
+        </li>
       </ul>
 
     </nav>
