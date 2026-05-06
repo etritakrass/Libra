@@ -1,0 +1,83 @@
+.notary-container {
+  background-color: #fdf5e6;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+h2 {
+  color: #001f3f;
+  text-align: center;
+}
+
+.add-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.add-form input {
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.add-form button {
+  background-color: #001f3f;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-form button:hover {
+  background-color: #013366;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #001f3f;
+  color: #fff;
+}
+
+.edit-btn {
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #0050a3;
+}
+
+.delete-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #a71111;
+}
