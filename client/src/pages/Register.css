@@ -1,0 +1,114 @@
+.register-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f1e6; /* E njëjtë si Logini */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.register-box {
+  width: 450px; /* Pak më e gjerë se Logini për shkak të fushave */
+  max-height: 90vh;
+  padding: 30px 40px;
+  background-color: #0b1f3a; /* Bluja e errët */
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+.register-box h2 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 20px;
+  color: #cbd5e1;
+}
+
+/* Scrollbar stil i hollë nëse forma është shumë e gjatë */
+.scrollable-form {
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.scrollable-form::-webkit-scrollbar {
+  width: 5px;
+}
+.scrollable-form::-webkit-scrollbar-thumb {
+  background: #f5f1e6;
+  border-radius: 10px;
+}
+
+/* Përzgjedhësi i Rolit */
+.role-selector {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.role-selector button {
+  flex: 1;
+  padding: 8px;
+  background-color: transparent;
+  color: #f5f1e6;
+  border: 1px solid #f5f1e6;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.role-selector button.active {
+  background-color: #f5f1e6;
+  color: #0b1f3a;
+}
+
+label {
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: #cbd5e1;
+}
+
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+/* Seksioni i skedarëve */
+.file-section, .notary-extra-fields {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(245, 241, 230, 0.2);
+}
+
+input[type="file"] {
+  background-color: #1a2e4d;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.btn-submit {
+  margin-top: 25px;
+  padding: 12px;
+  background-color: #f5f1e6;
+  color: #0b1f3a;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #e8dfc8;
+}
