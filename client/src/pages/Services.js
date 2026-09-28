@@ -4,7 +4,7 @@ import './Services.css';
 export default function Services() {
   return (
     <div className="services-page">
-      {/* Hero Section */}
+   
       <div className="services-hero">
         <h1>Shërbimet</h1>
       </div>
